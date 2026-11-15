@@ -1,0 +1,16 @@
+**/target/
+**/dist/
+*.pdb
+.env
+.env.*
+!.env.example
+**/.test-output/
+*.log
+__pycache__/
+**/.gradle/
+**/.gradle-user/
+**/build/
+**/local.properties
+*.jks
+*.keystore
+.idea/

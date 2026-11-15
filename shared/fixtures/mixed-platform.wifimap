@@ -1,0 +1,401 @@
+{
+  "schema_version": 2,
+  "name": "Synthetic interoperability fixture; not a physical survey",
+  "plan": {
+    "size": [
+      640,
+      480
+    ],
+    "image": {
+      "name": "generated-plan.png",
+      "png": "iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgCAYAAAA10dzkAAAIy0lEQVR4nO3WoQ0AIADAMP7/l4CDL0Cson5yY659AADoGL8DAAB4ywACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBACIMYAAADEGEAAgxgACAMQYQACAGAMIABBjAAEAYgwgAECMAQQAiDGAAAAxBhAAIMYAAgDEGEAAgBgDCAAQYwABAGIMIABAjAEEAIgxgAAAMQYQACDGAAIAxBhAAIAYAwgAEGMAAQBiDCAAQIwBBABYLRdLlSFYCNkyQgAAAABJRU5ErkJggg=="
+    },
+    "walls": [
+      {
+        "a": {
+          "x": 40,
+          "y": 40
+        },
+        "b": {
+          "x": 600,
+          "y": 40
+        }
+      }
+    ],
+    "calibration": {
+      "a": {
+        "x": 40,
+        "y": 40
+      },
+      "b": {
+        "x": 600,
+        "y": 40
+      },
+      "meters": 7
+    }
+  },
+  "surveys": [
+    {
+      "id": 1,
+      "name": "Before (synthetic fixture)",
+      "router": {
+        "x": 150,
+        "y": 150
+      },
+      "samples": [
+        {
+          "id": 3,
+          "position": {
+            "x": 120,
+            "y": 120
+          },
+          "observation": {
+            "adapter_id": "fixture-windows",
+            "ssid": [
+              72,
+              111,
+              109,
+              101
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -65,
+            "link_quality_percent": 70,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "WindowsBss",
+            "ssid_encoding": null,
+            "android_observed_elapsed_us": null
+          },
+          "local_probe": null
+        },
+        {
+          "id": 4,
+          "position": {
+            "x": 500,
+            "y": 120
+          },
+          "observation": {
+            "adapter_id": "fixture-windows",
+            "ssid": [
+              72,
+              111,
+              109,
+              101
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -70,
+            "link_quality_percent": 65,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "WindowsBss",
+            "ssid_encoding": null,
+            "android_observed_elapsed_us": null
+          },
+          "local_probe": null
+        },
+        {
+          "id": 5,
+          "position": {
+            "x": 120,
+            "y": 360
+          },
+          "observation": {
+            "adapter_id": "android-system-wifi",
+            "ssid": [
+              255,
+              128,
+              65
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -60,
+            "link_quality_percent": null,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "AndroidScan",
+            "ssid_encoding": "RawBytes",
+            "android_observed_elapsed_us": 56000000
+          },
+          "local_probe": null
+        },
+        {
+          "id": 6,
+          "position": {
+            "x": 500,
+            "y": 360
+          },
+          "observation": {
+            "adapter_id": "android-system-wifi",
+            "ssid": [
+              65,
+              110,
+              100,
+              114,
+              111,
+              105,
+              100
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -75,
+            "link_quality_percent": null,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "AndroidScan",
+            "ssid_encoding": "Utf8Display",
+            "android_observed_elapsed_us": 57000000
+          },
+          "local_probe": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "After (synthetic fixture)",
+      "router": {
+        "x": 350,
+        "y": 150
+      },
+      "samples": [
+        {
+          "id": 7,
+          "position": {
+            "x": 120,
+            "y": 120
+          },
+          "observation": {
+            "adapter_id": "fixture-windows",
+            "ssid": [
+              72,
+              111,
+              109,
+              101
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -58,
+            "link_quality_percent": 78,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "WindowsBss",
+            "ssid_encoding": null,
+            "android_observed_elapsed_us": null
+          },
+          "local_probe": null
+        },
+        {
+          "id": 8,
+          "position": {
+            "x": 500,
+            "y": 120
+          },
+          "observation": {
+            "adapter_id": "fixture-windows",
+            "ssid": [
+              72,
+              111,
+              109,
+              101
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -63,
+            "link_quality_percent": 73,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "WindowsBss",
+            "ssid_encoding": null,
+            "android_observed_elapsed_us": null
+          },
+          "local_probe": null
+        },
+        {
+          "id": 9,
+          "position": {
+            "x": 120,
+            "y": 360
+          },
+          "observation": {
+            "adapter_id": "android-system-wifi",
+            "ssid": [
+              255,
+              128,
+              65
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -53,
+            "link_quality_percent": null,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "AndroidScan",
+            "ssid_encoding": "RawBytes",
+            "android_observed_elapsed_us": 56000000
+          },
+          "local_probe": null
+        },
+        {
+          "id": 10,
+          "position": {
+            "x": 500,
+            "y": 360
+          },
+          "observation": {
+            "adapter_id": "android-system-wifi",
+            "ssid": [
+              65,
+              110,
+              100,
+              114,
+              111,
+              105,
+              100
+            ],
+            "bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "frequency_khz": 5180000,
+            "channel": 36,
+            "rssi_dbm": -68,
+            "link_quality_percent": null,
+            "collected_unix_ms": 1794700800100,
+            "observed_unix_ms": 1794700800000,
+            "connected_bssid": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "source": "AndroidScan",
+            "ssid_encoding": "Utf8Display",
+            "android_observed_elapsed_us": 57000000
+          },
+          "local_probe": null
+        }
+      ]
+    }
+  ],
+  "next_id": 11,
+  "demo": false
+}
