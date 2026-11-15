@@ -1,0 +1,1410 @@
+{
+  "tagline": [
+    "Find your better connection.",
+    "Найдите место с лучшей связью.",
+    "Trouvez une meilleure connexion.",
+    "Finden Sie die bessere Verbindung.",
+    "Encuentra una mejor conexión.",
+    "Trova una connessione migliore."
+  ],
+  "new": [
+    "New",
+    "Новый",
+    "Nouveau",
+    "Neu",
+    "Nuevo",
+    "Nuovo"
+  ],
+  "open": [
+    "Open",
+    "Открыть",
+    "Ouvrir",
+    "Öffnen",
+    "Abrir",
+    "Apri"
+  ],
+  "save": [
+    "Save",
+    "Сохранить",
+    "Enregistrer",
+    "Speichern",
+    "Guardar",
+    "Salva"
+  ],
+  "save_as": [
+    "Save as…",
+    "Сохранить как…",
+    "Enregistrer sous…",
+    "Speichern unter…",
+    "Guardar como…",
+    "Salva come…"
+  ],
+  "import": [
+    "Import plan",
+    "Импорт плана",
+    "Importer un plan",
+    "Plan importieren",
+    "Importar plano",
+    "Importa pianta"
+  ],
+  "export": [
+    "Export SVG report",
+    "Экспорт отчёта SVG",
+    "Exporter le rapport SVG",
+    "SVG-Bericht exportieren",
+    "Exportar informe SVG",
+    "Esporta rapporto SVG"
+  ],
+  "settings": [
+    "Settings",
+    "Настройки",
+    "Paramètres",
+    "Einstellungen",
+    "Ajustes",
+    "Impostazioni"
+  ],
+  "untitled": [
+    "Untitled apartment",
+    "Квартира без названия",
+    "Appartement sans titre",
+    "Unbenannte Wohnung",
+    "Piso sin título",
+    "Appartamento senza titolo"
+  ],
+  "survey": [
+    "Survey",
+    "Серия замеров",
+    "Relevé",
+    "Messreihe",
+    "Medición",
+    "Rilievo"
+  ],
+  "surveys": [
+    "SURVEYS",
+    "СЕРИИ ЗАМЕРОВ",
+    "RELEVÉS",
+    "MESSREIHEN",
+    "MEDICIONES",
+    "RILIEVI"
+  ],
+  "survey_name": [
+    "Survey name",
+    "Название серии",
+    "Nom du relevé",
+    "Name der Messreihe",
+    "Nombre de medición",
+    "Nome del rilievo"
+  ],
+  "add_survey": [
+    "+ New survey",
+    "+ Новая серия",
+    "+ Nouveau relevé",
+    "+ Neue Messreihe",
+    "+ Nueva medición",
+    "+ Nuovo rilievo"
+  ],
+  "compare": [
+    "Compare with earlier survey",
+    "Сравнить с другой серией",
+    "Comparer à un relevé précédent",
+    "Mit früherer Messreihe vergleichen",
+    "Comparar con medición anterior",
+    "Confronta con un rilievo precedente"
+  ],
+  "baseline": [
+    "Baseline",
+    "Исходная серия",
+    "Référence",
+    "Referenz",
+    "Referencia",
+    "Riferimento"
+  ],
+  "difference": [
+    "Change from baseline",
+    "Изменение относительно исходной",
+    "Écart par rapport à la référence",
+    "Änderung zur Referenz",
+    "Cambio respecto a referencia",
+    "Variazione dal riferimento"
+  ],
+  "metric": [
+    "Map metric",
+    "Метрика карты",
+    "Mesure affichée",
+    "Kartenmetrik",
+    "Métrica del mapa",
+    "Metrica della mappa"
+  ],
+  "rssi": [
+    "Signal · dBm",
+    "Сигнал · dBm",
+    "Signal · dBm",
+    "Signal · dBm",
+    "Señal · dBm",
+    "Segnale · dBm"
+  ],
+  "quality": [
+    "Driver quality · %",
+    "Качество по драйверу · %",
+    "Qualité du pilote · %",
+    "Treiberqualität · %",
+    "Calidad del controlador · %",
+    "Qualità del driver · %"
+  ],
+  "access_point": [
+    "Access point",
+    "Точка доступа",
+    "Point d’accès",
+    "Zugangspunkt",
+    "Punto de acceso",
+    "Punto di accesso"
+  ],
+  "select_ap": [
+    "Choose an access point",
+    "Выберите точку доступа",
+    "Choisir un point d’accès",
+    "Zugangspunkt wählen",
+    "Elige un punto de acceso",
+    "Scegli un punto di accesso"
+  ],
+  "adapter": [
+    "Wi-Fi adapter",
+    "Wi-Fi адаптер",
+    "Adaptateur Wi-Fi",
+    "WLAN-Adapter",
+    "Adaptador Wi-Fi",
+    "Adattatore Wi-Fi"
+  ],
+  "refresh": [
+    "Find adapters / scan",
+    "Найти адаптеры / сканировать",
+    "Chercher / analyser",
+    "Adapter suchen / scannen",
+    "Buscar / escanear",
+    "Cerca / scansiona"
+  ],
+  "scan": [
+    "Refresh access points",
+    "Обновить точки доступа",
+    "Actualiser les points d’accès",
+    "Zugangspunkte aktualisieren",
+    "Actualizar puntos de acceso",
+    "Aggiorna punti di accesso"
+  ],
+  "connected": [
+    "Connected",
+    "Подключён",
+    "Connecté",
+    "Verbunden",
+    "Conectado",
+    "Connesso"
+  ],
+  "disconnected": [
+    "Not connected",
+    "Не подключён",
+    "Non connecté",
+    "Nicht verbunden",
+    "Sin conexión",
+    "Non connesso"
+  ],
+  "no_adapters": [
+    "No Wi-Fi adapter found.",
+    "Wi-Fi адаптеры не найдены.",
+    "Aucun adaptateur Wi-Fi trouvé.",
+    "Kein WLAN-Adapter gefunden.",
+    "No se encontró adaptador Wi-Fi.",
+    "Nessun adattatore Wi-Fi trovato."
+  ],
+  "measure": [
+    "Measure here",
+    "Измерить здесь",
+    "Mesurer ici",
+    "Hier messen",
+    "Medir aquí",
+    "Misura qui"
+  ],
+  "measure_hint": [
+    "Place a point on the plan, then measure while standing there.",
+    "Укажите точку на плане и выполните замер, находясь в этом месте.",
+    "Placez un point sur le plan et mesurez en vous tenant à cet endroit.",
+    "Punkt im Plan setzen und dort stehend messen.",
+    "Marca un punto en el plano y mide desde ese lugar.",
+    "Posiziona un punto e misura mentre ti trovi lì."
+  ],
+  "pick_point": [
+    "Choose a location on the plan",
+    "Укажите место на плане",
+    "Choisissez un lieu sur le plan",
+    "Ort auf dem Plan wählen",
+    "Elige un lugar en el plano",
+    "Scegli un punto sulla pianta"
+  ],
+  "working": [
+    "Working…",
+    "Выполняется…",
+    "En cours…",
+    "Wird ausgeführt…",
+    "En curso…",
+    "In corso…"
+  ],
+  "scanning": [
+    "Waiting for fresh Wi-Fi observations…",
+    "Ожидание свежих данных Wi-Fi…",
+    "Attente de données Wi-Fi récentes…",
+    "Warten auf aktuelle WLAN-Daten…",
+    "Esperando datos Wi-Fi recientes…",
+    "In attesa di dati Wi-Fi recenti…"
+  ],
+  "cancel": [
+    "Cancel",
+    "Отмена",
+    "Annuler",
+    "Abbrechen",
+    "Cancelar",
+    "Annulla"
+  ],
+  "point_tool": [
+    "Point",
+    "Точка",
+    "Point",
+    "Punkt",
+    "Punto",
+    "Punto"
+  ],
+  "wall_tool": [
+    "Draw walls",
+    "Стены",
+    "Tracer les murs",
+    "Wände zeichnen",
+    "Dibujar paredes",
+    "Disegna muri"
+  ],
+  "scale_tool": [
+    "Set scale",
+    "Масштаб",
+    "Définir l’échelle",
+    "Maßstab setzen",
+    "Ajustar escala",
+    "Imposta scala"
+  ],
+  "router_tool": [
+    "Router",
+    "Роутер",
+    "Routeur",
+    "Router",
+    "Router",
+    "Router"
+  ],
+  "fit": [
+    "Fit plan",
+    "Вписать план",
+    "Ajuster le plan",
+    "Plan einpassen",
+    "Ajustar plano",
+    "Adatta pianta"
+  ],
+  "pan_hint": [
+    "Scroll to zoom · right-drag to pan · drag points to correct position",
+    "Колесо — масштаб · правая кнопка — сдвиг · точки можно перетаскивать",
+    "Molette : zoom · glisser avec le bouton droit : déplacer · glisser les points : corriger",
+    "Scrollen: Zoom · Rechtsziehen: Verschieben · Punkte ziehen: Position korrigieren",
+    "Rueda: zoom · arrastre derecho: mover · arrastra puntos para corregir",
+    "Rotella: zoom · trascina con il destro: sposta · trascina punti per correggere"
+  ],
+  "wall_hint": [
+    "Click two ends of a wall. Esc cancels.",
+    "Укажите два конца стены. Esc — отмена.",
+    "Cliquez sur les deux extrémités du mur. Échap annule.",
+    "Zwei Wandenden anklicken. Esc bricht ab.",
+    "Marca los dos extremos de una pared. Esc cancela.",
+    "Fai clic sui due estremi del muro. Esc annulla."
+  ],
+  "scale_hint": [
+    "Click two points a known distance apart.",
+    "Укажите две точки с известным расстоянием.",
+    "Cliquez sur deux points de distance connue.",
+    "Zwei Punkte mit bekanntem Abstand wählen.",
+    "Marca dos puntos con distancia conocida.",
+    "Scegli due punti a distanza nota."
+  ],
+  "distance": [
+    "Distance · meters",
+    "Расстояние · метры",
+    "Distance · mètres",
+    "Abstand · Meter",
+    "Distancia · metros",
+    "Distanza · metri"
+  ],
+  "apply_scale": [
+    "Apply scale",
+    "Задать масштаб",
+    "Appliquer l’échelle",
+    "Maßstab anwenden",
+    "Aplicar escala",
+    "Applica scala"
+  ],
+  "scale_missing": [
+    "Scale not set · radius uses 200 plan pixels",
+    "Масштаб не задан · радиус 200 пикселей плана",
+    "Échelle non définie · rayon de 200 pixels",
+    "Kein Maßstab · Radius: 200 Planpixel",
+    "Sin escala · radio de 200 píxeles",
+    "Scala assente · raggio di 200 pixel"
+  ],
+  "radius": [
+    "Estimate radius · m",
+    "Радиус оценки · м",
+    "Rayon d’estimation · m",
+    "Schätzradius · m",
+    "Radio de estimación · m",
+    "Raggio di stima · m"
+  ],
+  "coverage": [
+    "COVERAGE",
+    "ПОКРЫТИЕ",
+    "COUVERTURE",
+    "ABDECKUNG",
+    "COBERTURA",
+    "COPERTURA"
+  ],
+  "legend": [
+    "Estimated coverage",
+    "Оценка покрытия",
+    "Couverture estimée",
+    "Geschätzte Abdeckung",
+    "Cobertura estimada",
+    "Copertura stimata"
+  ],
+  "measured": [
+    "Measured points",
+    "Измеренные точки",
+    "Points mesurés",
+    "Gemessene Punkte",
+    "Puntos medidos",
+    "Punti misurati"
+  ],
+  "unmeasured": [
+    "No estimate",
+    "Нет оценки",
+    "Sans estimation",
+    "Keine Schätzung",
+    "Sin estimación",
+    "Nessuna stima"
+  ],
+  "weak": [
+    "Weak",
+    "Слабый",
+    "Faible",
+    "Schwach",
+    "Débil",
+    "Debole"
+  ],
+  "strong": [
+    "Strong",
+    "Сильный",
+    "Fort",
+    "Stark",
+    "Fuerte",
+    "Forte"
+  ],
+  "loss": [
+    "Weaker",
+    "Слабее",
+    "Plus faible",
+    "Schwächer",
+    "Más débil",
+    "Più debole"
+  ],
+  "gain": [
+    "Stronger",
+    "Сильнее",
+    "Plus fort",
+    "Stärker",
+    "Más fuerte",
+    "Più forte"
+  ],
+  "estimate_note": [
+    "Estimate only · nearest 8 locations · 3 nearby points required · no wall model",
+    "Только оценка · 8 ближайших мест · нужно 3 соседних точки · без модели стен",
+    "Estimation · 8 lieux proches · 3 points requis · sans modèle des murs",
+    "Schätzung · 8 nächste Orte · 3 nahe Punkte nötig · kein Wandmodell",
+    "Estimación · 8 ubicaciones cercanas · requiere 3 puntos · sin modelo de paredes",
+    "Stima · 8 luoghi vicini · servono 3 punti · nessun modello dei muri"
+  ],
+  "confidence_note": [
+    "Fainter color means farther from a measurement. Outside sampled bounds stays blank.",
+    "Бледнее — дальше от замера. За границами измеренной области оценки нет.",
+    "Une couleur plus pâle indique une mesure plus éloignée. Les zones hors relevé restent vides.",
+    "Blassere Farbe bedeutet größeren Messabstand. Außerhalb des Messbereichs bleibt es leer.",
+    "El color tenue indica mayor distancia a una medición. Fuera de la zona medida queda vacío.",
+    "Il colore più tenue indica maggiore distanza da una misura. Fuori dai limiti campionati resta vuoto."
+  ],
+  "compare_note": [
+    "Difference of two estimates for this BSSID and metric, only where both have coverage.",
+    "Разность двух оценок для этого BSSID и метрики, только в общей области покрытия.",
+    "Écart entre estimations pour ce BSSID et cette mesure, dans leur zone commune.",
+    "Differenz zweier Schätzungen für diese BSSID und Metrik, nur im gemeinsamen Bereich.",
+    "Diferencia entre estimaciones del mismo BSSID y métrica, solo en la zona común.",
+    "Differenza tra stime per questo BSSID e metrica, solo nell’area comune."
+  ],
+  "no_data": [
+    "No estimated area yet. Add measurements around the room.",
+    "Области оценки пока нет. Добавьте замеры по комнате.",
+    "Pas encore de zone estimée. Ajoutez des mesures dans la pièce.",
+    "Noch kein Schätzbereich. Weitere Messpunkte im Raum setzen.",
+    "Aún no hay área estimada. Añade mediciones por la habitación.",
+    "Nessuna area stimata. Aggiungi misure nella stanza."
+  ],
+  "welcome": [
+    "Start with your floor plan",
+    "Начните с плана квартиры",
+    "Commencez par votre plan",
+    "Beginnen Sie mit Ihrem Grundriss",
+    "Empieza con tu plano",
+    "Inizia dalla pianta"
+  ],
+  "welcome_detail": [
+    "Import a PNG/JPEG, or draw walls on this blank plan. Set the scale, choose your location and measure.",
+    "Импортируйте PNG/JPEG или нарисуйте стены. Задайте масштаб, укажите своё место и выполните замер.",
+    "Importez un PNG/JPEG ou tracez les murs. Définissez l’échelle, choisissez votre lieu et mesurez.",
+    "PNG/JPEG importieren oder Wände zeichnen. Maßstab setzen, Standort wählen und messen.",
+    "Importa PNG/JPEG o dibuja paredes. Ajusta la escala, marca tu ubicación y mide.",
+    "Importa PNG/JPEG o disegna i muri. Imposta la scala, scegli la posizione e misura."
+  ],
+  "demo": [
+    "Explore example",
+    "Открыть пример",
+    "Explorer un exemple",
+    "Beispiel ansehen",
+    "Explorar ejemplo",
+    "Esplora esempio"
+  ],
+  "demo_badge": [
+    "EXAMPLE · SYNTHETIC DATA",
+    "ПРИМЕР · ВЫДУМАННЫЕ ДАННЫЕ",
+    "EXEMPLE · DONNÉES SIMULÉES",
+    "BEISPIEL · SYNTHETISCHE DATEN",
+    "EJEMPLO · DATOS SINTÉTICOS",
+    "ESEMPIO · DATI SINTETICI"
+  ],
+  "new_real": [
+    "Start a real survey",
+    "Начать реальные замеры",
+    "Commencer un vrai relevé",
+    "Echte Messreihe starten",
+    "Iniciar medición real",
+    "Inizia un rilievo reale"
+  ],
+  "point_details": [
+    "SELECTED MEASUREMENT",
+    "ВЫБРАННЫЙ ЗАМЕР",
+    "MESURE SÉLECTIONNÉE",
+    "AUSGEWÄHLTE MESSUNG",
+    "MEDICIÓN SELECCIONADA",
+    "MISURA SELEZIONATA"
+  ],
+  "remove_point": [
+    "Remove point",
+    "Удалить точку",
+    "Supprimer le point",
+    "Punkt entfernen",
+    "Eliminar punto",
+    "Rimuovi punto"
+  ],
+  "undo": [
+    "Undo last edit",
+    "Отменить правку",
+    "Annuler la modification",
+    "Letzte Änderung rückgängig",
+    "Deshacer último cambio",
+    "Annulla ultima modifica"
+  ],
+  "timestamp": [
+    "Observation time · UTC",
+    "Время наблюдения · UTC",
+    "Heure d’observation · UTC",
+    "Beobachtungszeit · UTC",
+    "Hora de observación · UTC",
+    "Ora di osservazione · UTC"
+  ],
+  "collected": [
+    "Collection time · UTC",
+    "Время сбора · UTC",
+    "Heure de collecte · UTC",
+    "Erfassungszeit · UTC",
+    "Hora de recogida · UTC",
+    "Ora di raccolta · UTC"
+  ],
+  "channel": [
+    "Channel",
+    "Канал",
+    "Canal",
+    "Kanal",
+    "Canal",
+    "Canale"
+  ],
+  "frequency": [
+    "Frequency",
+    "Частота",
+    "Fréquence",
+    "Frequenz",
+    "Frecuencia",
+    "Frequenza"
+  ],
+  "unavailable": [
+    "Unavailable",
+    "Недоступно",
+    "Indisponible",
+    "Nicht verfügbar",
+    "No disponible",
+    "Non disponibile"
+  ],
+  "api_note": [
+    "Driver-reported RSSI and quality. Noise, SNR and channel width are not measured. Link rate is not throughput.",
+    "RSSI и качество сообщает драйвер. Шум, SNR и ширина канала не измеряются. Скорость соединения не равна пропускной способности.",
+    "RSSI et qualité du pilote. Bruit, SNR et largeur du canal non mesurés. Débit de liaison ≠ débit utile.",
+    "RSSI und Qualität vom Treiber. Rauschen, SNR und Kanalbreite werden nicht gemessen. Linkrate ist kein Durchsatz.",
+    "RSSI y calidad del controlador. No se miden ruido, SNR ni ancho del canal. La tasa del enlace no es caudal útil.",
+    "RSSI e qualità dal driver. Rumore, SNR e larghezza del canale non misurati. La velocità di collegamento non è la capacità utile."
+  ],
+  "appearance": [
+    "Appearance",
+    "Оформление",
+    "Apparence",
+    "Darstellung",
+    "Apariencia",
+    "Aspetto"
+  ],
+  "language": [
+    "Language",
+    "Язык",
+    "Langue",
+    "Sprache",
+    "Idioma",
+    "Lingua"
+  ],
+  "light": [
+    "Light",
+    "Светлая",
+    "Clair",
+    "Hell",
+    "Claro",
+    "Chiaro"
+  ],
+  "dark": [
+    "Dark",
+    "Тёмная",
+    "Sombre",
+    "Dunkel",
+    "Oscuro",
+    "Scuro"
+  ],
+  "reduced_motion": [
+    "Reduce motion",
+    "Уменьшить анимацию",
+    "Réduire les animations",
+    "Bewegung reduzieren",
+    "Reducir movimiento",
+    "Riduci animazioni"
+  ],
+  "updates": [
+    "Updates",
+    "Обновления",
+    "Mises à jour",
+    "Updates",
+    "Actualizaciones",
+    "Aggiornamenti"
+  ],
+  "installed_version": [
+    "Installed version",
+    "Установленная версия",
+    "Version installée",
+    "Installierte Version",
+    "Versión instalada",
+    "Versione installata"
+  ],
+  "startup_check": [
+    "Check for updates on startup",
+    "Проверять обновления при запуске",
+    "Vérifier les mises à jour au démarrage",
+    "Beim Start nach Updates suchen",
+    "Buscar actualizaciones al iniciar",
+    "Cerca aggiornamenti all’avvio"
+  ],
+  "check_updates": [
+    "Check for updates",
+    "Проверить обновления",
+    "Vérifier les mises à jour",
+    "Nach Updates suchen",
+    "Buscar actualizaciones",
+    "Cerca aggiornamenti"
+  ],
+  "update_available": [
+    "Update available",
+    "Доступно обновление",
+    "Mise à jour disponible",
+    "Update verfügbar",
+    "Actualización disponible",
+    "Aggiornamento disponibile"
+  ],
+  "update_current": [
+    "You have the latest stable version.",
+    "Установлена последняя стабильная версия.",
+    "Vous avez la dernière version stable.",
+    "Die aktuelle stabile Version ist installiert.",
+    "Tienes la última versión estable.",
+    "Hai l’ultima versione stabile."
+  ],
+  "download_install": [
+    "Download and install",
+    "Скачать и установить",
+    "Télécharger et installer",
+    "Herunterladen und installieren",
+    "Descargar e instalar",
+    "Scarica e installa"
+  ],
+  "downloading": [
+    "Downloading and verifying…",
+    "Загрузка и проверка…",
+    "Téléchargement et vérification…",
+    "Download und Prüfung…",
+    "Descargando y verificando…",
+    "Download e verifica…"
+  ],
+  "restart_install": [
+    "Restart to install",
+    "Перезапустить и установить",
+    "Redémarrer pour installer",
+    "Zum Installieren neu starten",
+    "Reiniciar para instalar",
+    "Riavvia per installare"
+  ],
+  "update_ready": [
+    "Download verified. Save your survey before restarting.",
+    "Загрузка проверена. Сохраните замеры перед перезапуском.",
+    "Téléchargement vérifié. Enregistrez avant de redémarrer.",
+    "Download geprüft. Messreihe vor dem Neustart speichern.",
+    "Descarga verificada. Guarda antes de reiniciar.",
+    "Download verificato. Salva il rilievo prima di riavviare."
+  ],
+  "update_privacy": [
+    "Startup checks contact the public GitHub release API. Plans and measurements stay on this computer.",
+    "Проверка обращается к публичному API GitHub. Планы и замеры остаются на этом компьютере.",
+    "La vérification contacte l’API publique GitHub. Plans et mesures restent sur cet ordinateur.",
+    "Die Prüfung nutzt die öffentliche GitHub-API. Pläne und Messungen bleiben auf diesem Computer.",
+    "La comprobación consulta la API pública de GitHub. Planos y medidas permanecen en este equipo.",
+    "La verifica contatta l’API pubblica GitHub. Piante e misure restano su questo computer."
+  ],
+  "close": [
+    "Close",
+    "Закрыть",
+    "Fermer",
+    "Schließen",
+    "Cerrar",
+    "Chiudi"
+  ],
+  "unsaved": [
+    "Save your changes?",
+    "Сохранить изменения?",
+    "Enregistrer les modifications ?",
+    "Änderungen speichern?",
+    "¿Guardar cambios?",
+    "Salvare le modifiche?"
+  ],
+  "unsaved_detail": [
+    "This project has changes that have not been saved.",
+    "В проекте есть несохранённые изменения.",
+    "Ce projet contient des modifications non enregistrées.",
+    "Dieses Projekt enthält ungespeicherte Änderungen.",
+    "Este proyecto tiene cambios sin guardar.",
+    "Il progetto contiene modifiche non salvate."
+  ],
+  "discard": [
+    "Discard changes",
+    "Не сохранять",
+    "Abandonner les modifications",
+    "Änderungen verwerfen",
+    "Descartar cambios",
+    "Scarta modifiche"
+  ],
+  "saved": [
+    "Project saved",
+    "Проект сохранён",
+    "Projet enregistré",
+    "Projekt gespeichert",
+    "Proyecto guardado",
+    "Progetto salvato"
+  ],
+  "exported": [
+    "Report exported",
+    "Отчёт сохранён",
+    "Rapport exporté",
+    "Bericht exportiert",
+    "Informe exportado",
+    "Rapporto esportato"
+  ],
+  "local_test": [
+    "Optional local peer test",
+    "Тест с локальным партнёром",
+    "Test local facultatif",
+    "Optionaler lokaler Peer-Test",
+    "Prueba local opcional",
+    "Test locale facoltativo"
+  ],
+  "peer_hint": [
+    "Requires a WifiMap peer on a trusted local computer. Transfers up to 8 MiB of test data; TCP payload throughput is not isolated Wi-Fi capacity.",
+    "Нужен партнёр WifiMap на доверенном компьютере в локальной сети. До 8 МиБ тестовых данных; TCP-тест не измеряет изолированную ёмкость Wi-Fi.",
+    "Nécessite un pair WifiMap local de confiance. Transfère jusqu’à 8 Mio ; le débit TCP n’isole pas la capacité Wi-Fi.",
+    "Benötigt einen vertrauenswürdigen lokalen WifiMap-Peer. Bis zu 8 MiB Testdaten; TCP-Durchsatz ist keine isolierte WLAN-Kapazität.",
+    "Requiere un par WifiMap local de confianza. Hasta 8 MiB de datos; el caudal TCP no aísla la capacidad Wi-Fi.",
+    "Richiede un peer WifiMap locale fidato. Fino a 8 MiB di dati; il flusso TCP non isola la capacità Wi-Fi."
+  ],
+  "peer_address_label": [
+    "Peer IP:port",
+    "IP:порт партнёра",
+    "IP:port du pair",
+    "Peer-IP:Port",
+    "IP:puerto del par",
+    "IP:porta del peer"
+  ],
+  "peer_token_label": [
+    "Shared token · 32 hex characters",
+    "Общий ключ · 32 hex-символа",
+    "Jeton partagé · 32 caractères hex",
+    "Gemeinsamer Token · 32 Hex-Zeichen",
+    "Clave compartida · 32 caracteres hex",
+    "Token condiviso · 32 caratteri hex"
+  ],
+  "run_peer": [
+    "Test selected measurement",
+    "Тест для выбранного замера",
+    "Tester la mesure sélectionnée",
+    "Ausgewählte Messung testen",
+    "Probar medición seleccionada",
+    "Testa la misura selezionata"
+  ],
+  "rtt": [
+    "TCP round-trip · ms",
+    "Задержка TCP · мс",
+    "Aller-retour TCP · ms",
+    "TCP-Rundlauf · ms",
+    "Ida y vuelta TCP · ms",
+    "Andata e ritorno TCP · ms"
+  ],
+  "throughput": [
+    "TCP payload · Mbit/s",
+    "Полезные данные TCP · Мбит/с",
+    "Débit utile TCP · Mbit/s",
+    "TCP-Nutzdaten · Mbit/s",
+    "Carga TCP · Mbit/s",
+    "Dati utili TCP · Mbit/s"
+  ],
+  "file_error": [
+    "Could not read or save the file.",
+    "Не удалось прочитать или сохранить файл.",
+    "Impossible de lire ou d’enregistrer le fichier.",
+    "Datei konnte nicht gelesen oder gespeichert werden.",
+    "No se pudo leer o guardar el archivo.",
+    "Impossibile leggere o salvare il file."
+  ],
+  "file_too_large": [
+    "File exceeds the supported size limit.",
+    "Файл превышает допустимый размер.",
+    "Le fichier dépasse la taille autorisée.",
+    "Datei überschreitet die zulässige Größe.",
+    "El archivo supera el límite de tamaño.",
+    "Il file supera la dimensione consentita."
+  ],
+  "image_error": [
+    "Use a valid PNG or JPEG up to 4096 × 4096 pixels.",
+    "Нужен корректный PNG или JPEG до 4096 × 4096 пикселей.",
+    "Utilisez un PNG ou JPEG valide de 4096 × 4096 pixels maximum.",
+    "Gültiges PNG/JPEG bis 4096 × 4096 Pixel verwenden.",
+    "Usa PNG o JPEG válido de hasta 4096 × 4096 píxeles.",
+    "Usa PNG o JPEG valido fino a 4096 × 4096 pixel."
+  ],
+  "invalid_project": [
+    "This project is damaged or contains unsupported values.",
+    "Проект повреждён или содержит недопустимые значения.",
+    "Ce projet est endommagé ou contient des valeurs non valides.",
+    "Projekt ist beschädigt oder enthält ungültige Werte.",
+    "El proyecto está dañado o contiene valores no válidos.",
+    "Il progetto è danneggiato o contiene valori non validi."
+  ],
+  "project_version": [
+    "This project uses an unsupported file version.",
+    "Версия файла проекта не поддерживается.",
+    "La version de ce projet n’est pas prise en charge.",
+    "Diese Projektversion wird nicht unterstützt.",
+    "La versión del proyecto no es compatible.",
+    "Versione del progetto non supportata."
+  ],
+  "preferences_error": [
+    "Preferences could not be loaded or saved.",
+    "Не удалось загрузить или сохранить настройки.",
+    "Impossible de charger ou d’enregistrer les préférences.",
+    "Einstellungen konnten nicht geladen oder gespeichert werden.",
+    "No se pudieron cargar o guardar los ajustes.",
+    "Impossibile caricare o salvare le preferenze."
+  ],
+  "wlan_permission": [
+    "Windows denied Wi-Fi access. Location consent may be required in Windows privacy settings.",
+    "Windows запретила доступ к Wi-Fi. Может потребоваться разрешение геолокации в настройках конфиденциальности.",
+    "Windows refuse l’accès Wi-Fi. Le consentement à la localisation peut être requis dans les paramètres de confidentialité.",
+    "Windows verweigert WLAN-Zugriff. Standortfreigabe kann in den Datenschutzeinstellungen nötig sein.",
+    "Windows denegó acceso Wi-Fi. Puede requerir permiso de ubicación en privacidad.",
+    "Windows ha negato l’accesso Wi-Fi. Potrebbe servire il consenso alla posizione nelle impostazioni privacy."
+  ],
+  "wlan_service": [
+    "Windows WLAN service is unavailable. No system setting was changed.",
+    "Служба WLAN Windows недоступна. Настройки системы не менялись.",
+    "Le service WLAN Windows est indisponible. Aucun réglage système n’a été modifié.",
+    "Windows-WLAN-Dienst nicht verfügbar. Keine Systemeinstellung wurde geändert.",
+    "El servicio WLAN no está disponible. No se cambió ningún ajuste del sistema.",
+    "Servizio WLAN Windows non disponibile. Nessuna impostazione di sistema è stata modificata."
+  ],
+  "wlan_unavailable": [
+    "The selected Wi-Fi adapter is no longer available.",
+    "Выбранный Wi-Fi адаптер больше недоступен.",
+    "L’adaptateur Wi-Fi choisi n’est plus disponible.",
+    "Gewählter WLAN-Adapter ist nicht mehr verfügbar.",
+    "El adaptador Wi-Fi elegido ya no está disponible.",
+    "L’adattatore Wi-Fi scelto non è più disponibile."
+  ],
+  "wlan_error": [
+    "Windows could not collect Wi-Fi data.",
+    "Windows не удалось собрать данные Wi-Fi.",
+    "Windows n’a pas pu collecter les données Wi-Fi.",
+    "Windows konnte keine WLAN-Daten erfassen.",
+    "Windows no pudo recoger datos Wi-Fi.",
+    "Windows non ha potuto raccogliere i dati Wi-Fi."
+  ],
+  "wlan_roamed": [
+    "The connection changed during measurement. Stay in place and measure again.",
+    "Подключение изменилось во время замера. Останьтесь на месте и повторите замер.",
+    "La connexion a changé pendant la mesure. Restez sur place et réessayez.",
+    "Verbindung wechselte während der Messung. Am Ort bleiben und erneut messen.",
+    "La conexión cambió durante la medición. Permanece en el lugar y repite.",
+    "La connessione è cambiata durante la misura. Resta sul posto e riprova."
+  ],
+  "wlan_stale": [
+    "Only cached Wi-Fi observations were returned. No measurement was saved.",
+    "Получены только старые данные Wi-Fi. Замер не сохранён.",
+    "Seules des données Wi-Fi en cache ont été reçues. Aucune mesure enregistrée.",
+    "Nur alte WLAN-Daten erhalten. Keine Messung gespeichert.",
+    "Solo se recibieron datos Wi-Fi antiguos. No se guardó medición.",
+    "Ricevuti solo dati Wi-Fi precedenti. Nessuna misura salvata."
+  ],
+  "wlan_no_networks": [
+    "No fresh observation for this access point. Move closer or refresh the list.",
+    "Нет свежих данных этой точки доступа. Подойдите ближе или обновите список.",
+    "Aucune donnée récente pour ce point d’accès. Rapprochez-vous ou actualisez.",
+    "Keine aktuellen Daten für diesen Zugangspunkt. Näher herangehen oder aktualisieren.",
+    "No hay datos recientes del punto de acceso. Acércate o actualiza.",
+    "Nessun dato recente per questo punto di accesso. Avvicinati o aggiorna."
+  ],
+  "windows_only": [
+    "Real Wi-Fi collection is supported on Windows 10/11.",
+    "Реальные Wi-Fi замеры поддерживаются в Windows 10/11.",
+    "La collecte Wi-Fi réelle nécessite Windows 10/11.",
+    "Echte WLAN-Erfassung wird unter Windows 10/11 unterstützt.",
+    "La recogida Wi-Fi real requiere Windows 10/11.",
+    "La raccolta Wi-Fi reale richiede Windows 10/11."
+  ],
+  "cancelled": [
+    "Cancelled",
+    "Отменено",
+    "Annulé",
+    "Abgebrochen",
+    "Cancelado",
+    "Annullato"
+  ],
+  "demo_isolated": [
+    "Example data and real measurements must use separate projects.",
+    "Пример и реальные замеры должны быть в разных проектах.",
+    "L’exemple et les mesures réelles doivent rester dans des projets distincts.",
+    "Beispieldaten und echte Messungen benötigen getrennte Projekte.",
+    "El ejemplo y las medidas reales deben usar proyectos separados.",
+    "Esempio e misure reali devono usare progetti separati."
+  ],
+  "sample_limit": [
+    "This project has reached its 10,000-measurement limit.",
+    "Достигнут лимит 10 000 замеров на проект.",
+    "La limite de 10 000 mesures est atteinte.",
+    "Limit von 10.000 Messungen erreicht.",
+    "Se alcanzó el límite de 10.000 mediciones.",
+    "Raggiunto il limite di 10.000 misure."
+  ],
+  "survey_limit": [
+    "This project has reached its 64-survey limit.",
+    "Достигнут лимит 64 серий на проект.",
+    "La limite de 64 relevés est atteinte.",
+    "Limit von 64 Messreihen erreicht.",
+    "Se alcanzó el límite de 64 mediciones.",
+    "Raggiunto il limite di 64 rilievi."
+  ],
+  "peer_error": [
+    "Could not complete the local peer test.",
+    "Не удалось завершить локальный тест.",
+    "Le test du pair local a échoué.",
+    "Lokaler Peer-Test konnte nicht abgeschlossen werden.",
+    "No se pudo completar la prueba local.",
+    "Impossibile completare il test locale."
+  ],
+  "peer_address": [
+    "Enter a private or loopback IP address and port.",
+    "Введите локальный IP-адрес или loopback и порт.",
+    "Saisissez une IP privée ou de boucle locale et un port.",
+    "Private oder Loopback-IP und Port eingeben.",
+    "Introduce IP privada o de bucle local y puerto.",
+    "Inserisci IP privato o loopback e porta."
+  ],
+  "peer_token": [
+    "The shared token must match: 32 hexadecimal characters.",
+    "Общие ключи должны совпадать: 32 шестнадцатеричных символа.",
+    "Le jeton partagé doit correspondre : 32 caractères hexadécimaux.",
+    "Gemeinsamer Token muss übereinstimmen: 32 Hex-Zeichen.",
+    "La clave debe coincidir: 32 caracteres hexadecimales.",
+    "Il token deve corrispondere: 32 caratteri esadecimali."
+  ],
+  "peer_timeout": [
+    "The local peer test timed out.",
+    "Время локального теста истекло.",
+    "Le test local a expiré.",
+    "Zeitlimit des lokalen Tests erreicht.",
+    "La prueba local agotó el tiempo.",
+    "Tempo del test locale scaduto."
+  ],
+  "peer_protocol": [
+    "The peer did not speak the WifiMap test protocol.",
+    "Партнёр не поддерживает протокол теста WifiMap.",
+    "Le pair n’utilise pas le protocole de test WifiMap.",
+    "Peer verwendet nicht das WifiMap-Testprotokoll.",
+    "El par no usa el protocolo de prueba WifiMap.",
+    "Il peer non usa il protocollo di test WifiMap."
+  ],
+  "peer_incomplete": [
+    "The peer transfer ended early; no speed result was saved.",
+    "Передача прервалась; результат скорости не сохранён.",
+    "Transfert interrompu ; aucun débit enregistré.",
+    "Übertragung vorzeitig beendet; kein Ergebnis gespeichert.",
+    "La transferencia terminó antes; no se guardó velocidad.",
+    "Trasferimento interrotto; nessun risultato salvato."
+  ],
+  "update_error": [
+    "Update check or download failed. An unpublished repository is not an up-to-date result.",
+    "Проверка или загрузка не удалась. Отсутствующий репозиторий не означает актуальную версию.",
+    "Échec de vérification ou téléchargement. Un dépôt non publié ne signifie pas que la version est à jour.",
+    "Prüfung oder Download fehlgeschlagen. Ein unveröffentlichtes Repository bedeutet nicht aktuell.",
+    "Falló la comprobación o descarga. Un repositorio sin publicar no significa estar al día.",
+    "Verifica o download fallito. Un repository non pubblicato non indica una versione aggiornata."
+  ],
+  "update_asset": [
+    "No compatible verified Windows x64 executable was found.",
+    "Не найден совместимый проверенный EXE для Windows x64.",
+    "Aucun exécutable Windows x64 compatible vérifié trouvé.",
+    "Keine kompatible geprüfte Windows-x64-Datei gefunden.",
+    "No se encontró ejecutable Windows x64 compatible verificado.",
+    "Nessun eseguibile Windows x64 compatibile verificato."
+  ],
+  "update_checksum": [
+    "Update checksum is missing or does not match. Installation stopped.",
+    "Контрольная сумма отсутствует или не совпадает. Установка остановлена.",
+    "Somme de contrôle absente ou incorrecte. Installation arrêtée.",
+    "Prüfsumme fehlt oder stimmt nicht. Installation gestoppt.",
+    "Falta la suma o no coincide. Instalación detenida.",
+    "Checksum mancante o errato. Installazione interrotta."
+  ],
+  "update_channel": [
+    "The release is not in the stable update channel.",
+    "Релиз не относится к стабильному каналу.",
+    "Cette version n’appartient pas au canal stable.",
+    "Diese Version gehört nicht zum stabilen Kanal.",
+    "La versión no pertenece al canal estable.",
+    "La versione non appartiene al canale stabile."
+  ],
+  "update_incomplete": [
+    "The update download is incomplete. Your installation was kept.",
+    "Обновление скачано не полностью. Текущая установка сохранена.",
+    "Téléchargement incomplet. L’installation actuelle est conservée.",
+    "Download unvollständig. Bestehende Installation bleibt erhalten.",
+    "Descarga incompleta. Se conservó la instalación.",
+    "Download incompleto. Installazione attuale conservata."
+  ],
+  "update_install": [
+    "Could not install the update. Keep the app in a writable folder; a recovery copy is retained.",
+    "Не удалось установить обновление. Папка приложения должна быть доступна для записи; резервная копия сохранена.",
+    "Installation impossible. Utilisez un dossier accessible en écriture ; une copie de secours est conservée.",
+    "Installation fehlgeschlagen. Beschreibbaren Ordner nutzen; Sicherung bleibt erhalten.",
+    "No se pudo instalar. Usa una carpeta con permiso de escritura; se conserva una copia.",
+    "Installazione fallita. Usa una cartella scrivibile; viene conservata una copia di recupero."
+  ],
+  "save_first": [
+    "Save your changes before restarting for an update.",
+    "Сохраните изменения перед перезапуском для обновления.",
+    "Enregistrez avant de redémarrer pour la mise à jour.",
+    "Vor dem Update-Neustart Änderungen speichern.",
+    "Guarda antes de reiniciar para actualizar.",
+    "Salva prima di riavviare per aggiornare."
+  ],
+  "details": [
+    "Details",
+    "Подробности",
+    "Détails",
+    "Details",
+    "Detalles",
+    "Dettagli"
+  ],
+  "project_filter": [
+    "WifiMap project",
+    "Проект WifiMap",
+    "Projet WifiMap",
+    "WifiMap-Projekt",
+    "Proyecto WifiMap",
+    "Progetto WifiMap"
+  ],
+  "image_filter": [
+    "Floor plan image",
+    "Изображение плана",
+    "Image du plan",
+    "Grundrissbild",
+    "Imagen del plano",
+    "Immagine della pianta"
+  ],
+  "report_filter": [
+    "SVG report",
+    "Отчёт SVG",
+    "Rapport SVG",
+    "SVG-Bericht",
+    "Informe SVG",
+    "Rapporto SVG"
+  ],
+  "clear_wall": [
+    "Remove last wall",
+    "Удалить последнюю стену",
+    "Supprimer le dernier mur",
+    "Letzte Wand entfernen",
+    "Eliminar última pared",
+    "Rimuovi ultimo muro"
+  ],
+  "points": [
+    "points",
+    "точек",
+    "points",
+    "Punkte",
+    "puntos",
+    "punti"
+  ],
+  "plan_name": [
+    "Project name",
+    "Название проекта",
+    "Nom du projet",
+    "Projektname",
+    "Nombre del proyecto",
+    "Nome del progetto"
+  ],
+  "report_title": [
+    "Wi-Fi coverage report",
+    "Отчёт о покрытии Wi-Fi",
+    "Rapport de couverture Wi-Fi",
+    "WLAN-Abdeckungsbericht",
+    "Informe de cobertura Wi-Fi",
+    "Rapporto di copertura Wi-Fi"
+  ],
+  "report_privacy": [
+    "Contains floor plan and Wi-Fi identifiers. Share deliberately.",
+    "Содержит план и идентификаторы Wi-Fi. Учитывайте это при передаче.",
+    "Contient plan et identifiants Wi-Fi. Partagez avec discernement.",
+    "Enthält Grundriss und WLAN-Kennungen. Bewusst teilen.",
+    "Contiene plano e identificadores Wi-Fi. Comparte con cuidado.",
+    "Contiene pianta e identificatori Wi-Fi. Condividi consapevolmente."
+  ],
+  "before": [
+    "Before moving the router",
+    "До перестановки роутера",
+    "Avant déplacement du routeur",
+    "Vor dem Router-Umstellen",
+    "Antes de mover el router",
+    "Prima di spostare il router"
+  ],
+  "after": [
+    "After moving the router",
+    "После перестановки роутера",
+    "Après déplacement du routeur",
+    "Nach dem Router-Umstellen",
+    "Después de mover el router",
+    "Dopo aver spostato il router"
+  ],
+  "quality_delta_note": [
+    "Quality change is shown in percentage points (pp).",
+    "Изменение качества — в процентных пунктах (pp).",
+    "L’écart de qualité est en points de pourcentage (pp).",
+    "Qualitätsänderung in Prozentpunkten (pp).",
+    "El cambio de calidad se muestra en puntos porcentuales (pp).",
+    "La variazione di qualità è in punti percentuali (pp)."
+  ],
+  "tcp_route_note": [
+    "Windows chooses the network route. This result is not bound to the selected Wi-Fi adapter or access point.",
+    "Сетевой маршрут выбирает Windows. Результат не привязан к выбранному Wi-Fi адаптеру или точке доступа.",
+    "Windows choisit la route réseau. Le résultat n’est pas lié à l’adaptateur ou au point d’accès choisi.",
+    "Windows wählt die Netzwerkroute. Das Ergebnis ist nicht an den gewählten WLAN-Adapter oder Zugangspunkt gebunden.",
+    "Windows elige la ruta de red. El resultado no está vinculado al adaptador ni al punto de acceso elegido.",
+    "Windows sceglie il percorso di rete. Il risultato non è legato all’adattatore o al punto di accesso scelto."
+  ],
+  "import_note": [
+    "Importing a floor plan starts a new project.",
+    "Импорт плана создаёт новый проект.",
+    "Importer un plan crée un nouveau projet.",
+    "Ein Planimport beginnt ein neues Projekt.",
+    "Importar un plano inicia un proyecto nuevo.",
+    "Importare una pianta avvia un nuovo progetto."
+  ],
+  "measured_absolute": [
+    "Measured points · absolute values",
+    "Измеренные точки · абсолютные значения",
+    "Points mesurés · valeurs absolues",
+    "Messpunkte · absolute Werte",
+    "Puntos medidos · valores absolutos",
+    "Punti misurati · valori assoluti"
+  ],
+  "licenses": [
+    "Licenses",
+    "Лицензии",
+    "Licences",
+    "Lizenzen",
+    "Licencias",
+    "Licenze"
+  ],
+  "licenses_detail": [
+    "This executable includes WifiMap’s MIT license and all dependency notices.",
+    "Этот EXE содержит лицензию MIT WifiMap и уведомления о лицензиях всех зависимостей.",
+    "Cet exécutable contient la licence MIT de WifiMap et les mentions de toutes les dépendances.",
+    "Diese EXE enthält WifiMaps MIT-Lizenz und alle Abhängigkeitshinweise.",
+    "Este ejecutable incluye la licencia MIT de WifiMap y los avisos de todas las dependencias.",
+    "L’eseguibile include la licenza MIT di WifiMap e gli avvisi di tutte le dipendenze."
+  ],
+  "licenses_save": [
+    "Save license notices…",
+    "Сохранить тексты лицензий…",
+    "Enregistrer les licences…",
+    "Lizenzhinweise speichern…",
+    "Guardar avisos de licencia…",
+    "Salva avvisi di licenza…"
+  ],
+  "licenses_saved": [
+    "License notices saved",
+    "Тексты лицензий сохранены",
+    "Licences enregistrées",
+    "Lizenzhinweise gespeichert",
+    "Avisos de licencia guardados",
+    "Avvisi di licenza salvati"
+  ],
+  "android_more": [
+    "More",
+    "Ещё",
+    "Plus",
+    "Mehr",
+    "Más",
+    "Altro"
+  ],
+  "android_add": [
+    "+ Survey",
+    "+ Серия",
+    "+ Relevé",
+    "+ Messreihe",
+    "+ Medición",
+    "+ Rilievo"
+  ],
+  "android_compare": [
+    "Compare",
+    "Сравнить",
+    "Comparer",
+    "Vergleichen",
+    "Comparar",
+    "Confronta"
+  ],
+  "android_metrics": [
+    "Metric / radius",
+    "Метрика / радиус",
+    "Mesure / rayon",
+    "Metrik / Radius",
+    "Métrica / radio",
+    "Metrica / raggio"
+  ],
+  "android_canvas_hint": [
+    "Floor plan. Tap a location, drag a measured point, or use two fingers to pan and zoom.",
+    "План. Коснитесь места, перетащите точку или используйте два пальца для сдвига и масштаба.",
+    "Plan. Touchez un lieu, déplacez un point ou utilisez deux doigts pour déplacer et zoomer.",
+    "Grundriss. Ort antippen, Messpunkt ziehen oder mit zwei Fingern verschieben und zoomen.",
+    "Plano. Toca un lugar, arrastra un punto o usa dos dedos para mover y ampliar.",
+    "Pianta. Tocca un luogo, trascina un punto o usa due dita per spostare e ingrandire."
+  ],
+  "android_touch_hint": [
+    "Tap to place a point. Pinch to zoom; drag empty space to pan. Tap a measurement for details.",
+    "Касание ставит точку. Щипок меняет масштаб; сдвиг по пустому месту перемещает план. У замера есть подробности.",
+    "Touchez pour placer un point. Pincez pour zoomer, glissez le fond pour déplacer. Touchez une mesure pour les détails.",
+    "Tippen setzt einen Punkt. Pinch zoomt, Ziehen im leeren Bereich verschiebt. Messung für Details antippen.",
+    "Toca para marcar. Pellizca para ampliar y arrastra el fondo para mover. Toca una medida para ver detalles.",
+    "Tocca per segnare un punto. Pizzica per lo zoom, trascina lo sfondo per spostare. Tocca una misura per i dettagli."
+  ],
+  "android_api_note": [
+    "Android RSSI · no driver-quality percentage, noise or SNR. Tap the legend for estimate limits.",
+    "RSSI Android · без процента качества, шума и SNR. Ограничения оценки — по нажатию на легенду.",
+    "RSSI Android · sans pourcentage de qualité, bruit ou SNR. Touchez la légende pour les limites.",
+    "Android-RSSI · kein Qualitätsprozentsatz, Rauschen oder SNR. Legende für Schätzgrenzen antippen.",
+    "RSSI Android · sin porcentaje de calidad, ruido ni SNR. Toca la leyenda para ver límites.",
+    "RSSI Android · senza percentuale di qualità, rumore o SNR. Tocca la legenda per i limiti."
+  ],
+  "android_wifi_permission": [
+    "Wi-Fi scanning access",
+    "Доступ к Wi-Fi замерам",
+    "Accès au relevé Wi-Fi",
+    "Zugriff auf WLAN-Messungen",
+    "Acceso a mediciones Wi-Fi",
+    "Accesso alle misure Wi-Fi"
+  ],
+  "android_permission_reason": [
+    "Android requires precise location access for Wi-Fi scans, and nearby-device access on newer versions. WifiMap reads no GPS position and scans only when you ask while the app is open.",
+    "Android требует точную геолокацию для сканирования Wi-Fi, а новые версии — доступ к ближайшим устройствам. WifiMap не читает GPS и сканирует только по вашей команде в открытом приложении.",
+    "Android exige la localisation précise pour les scans Wi-Fi et l’accès aux appareils proches sur les versions récentes. WifiMap ne lit pas le GPS et analyse uniquement à votre demande dans l’app ouverte.",
+    "Android verlangt genauen Standortzugriff für WLAN-Scans und bei neueren Versionen Zugriff auf Geräte in der Nähe. WifiMap liest kein GPS und scannt nur auf Ihren Wunsch bei geöffneter App.",
+    "Android requiere ubicación precisa para escanear Wi-Fi y acceso a dispositivos cercanos en versiones nuevas. WifiMap no lee GPS y solo escanea cuando lo pides con la app abierta.",
+    "Android richiede la posizione precisa per le scansioni Wi-Fi e i dispositivi vicini nelle versioni recenti. WifiMap non legge il GPS e scansiona solo su richiesta con l’app aperta."
+  ],
+  "android_permission": [
+    "Precise location / nearby Wi-Fi access was not granted. No measurement was saved.",
+    "Нет разрешения точной геолокации / Wi-Fi. Замер не сохранён.",
+    "Accès à la localisation précise / Wi-Fi non accordé. Aucune mesure enregistrée.",
+    "Genauer Standort-/WLAN-Zugriff nicht gewährt. Keine Messung gespeichert.",
+    "No se concedió ubicación precisa / Wi-Fi. No se guardó la medición.",
+    "Accesso alla posizione precisa / Wi-Fi non concesso. Nessuna misura salvata."
+  ],
+  "android_allow": [
+    "Continue to Android permission",
+    "Продолжить к разрешению Android",
+    "Continuer vers l’autorisation Android",
+    "Weiter zur Android-Freigabe",
+    "Continuar al permiso de Android",
+    "Continua al permesso Android"
+  ],
+  "android_wifi_off": [
+    "Wi-Fi is off or unavailable. WifiMap did not change it.",
+    "Wi-Fi выключен или недоступен. WifiMap не менял его состояние.",
+    "Wi-Fi désactivé ou indisponible. WifiMap n’a rien modifié.",
+    "WLAN ist aus oder nicht verfügbar. WifiMap hat nichts geändert.",
+    "Wi-Fi apagado o no disponible. WifiMap no lo cambió.",
+    "Wi-Fi spento o non disponibile. WifiMap non lo ha modificato."
+  ],
+  "android_location_off": [
+    "Android location services are off; Wi-Fi scans are unavailable. Enable them yourself if you want to scan.",
+    "Служба геолокации Android выключена: Wi-Fi замеры недоступны. При необходимости включите её сами.",
+    "La localisation Android est désactivée ; les scans Wi-Fi sont indisponibles. Activez-la vous-même si nécessaire.",
+    "Android-Standortdienste sind aus; WLAN-Scans sind nicht verfügbar. Bei Bedarf selbst aktivieren.",
+    "La ubicación de Android está apagada; no se puede escanear Wi-Fi. Actívala tú si lo deseas.",
+    "La posizione Android è disattivata; scansioni Wi-Fi non disponibili. Attivala tu se desideri scansionare."
+  ],
+  "android_scan_throttled": [
+    "Android limited or refused this scan. Foreground scans are normally limited to four per two minutes. Wait and retry; no cached value was saved.",
+    "Android ограничил или отклонил сканирование. Обычно доступны четыре сканирования за две минуты. Подождите и повторите; старые данные не сохранены.",
+    "Android a limité ou refusé ce scan. Normalement, quatre scans sont permis en deux minutes. Attendez puis réessayez ; aucune donnée ancienne enregistrée.",
+    "Android hat den Scan begrenzt oder abgelehnt. Üblich sind vier Scans in zwei Minuten. Warten und erneut versuchen; keine alten Werte gespeichert.",
+    "Android limitó o rechazó el escaneo. Normalmente permite cuatro en dos minutos. Espera y repite; no se guardaron datos antiguos.",
+    "Android ha limitato o rifiutato la scansione. Normalmente quattro scansioni in due minuti. Attendi e riprova; nessun dato precedente salvato."
+  ],
+  "android_scan_timeout": [
+    "No fresh Android scan arrived within 12 seconds. Stay in place and retry.",
+    "Свежие данные Android не пришли за 12 секунд. Останьтесь на месте и повторите.",
+    "Aucun scan Android récent en 12 secondes. Restez sur place et réessayez.",
+    "Kein aktueller Android-Scan in 12 Sekunden. Am Ort bleiben und erneut versuchen.",
+    "No llegaron datos recientes en 12 segundos. Permanece en el lugar y repite.",
+    "Nessun dato recente in 12 secondi. Resta sul posto e riprova."
+  ],
+  "android_pick_file": [
+    "Choose a document in Android…",
+    "Выберите документ в Android…",
+    "Choisissez un document dans Android…",
+    "Dokument in Android wählen…",
+    "Elige un documento en Android…",
+    "Scegli un documento in Android…"
+  ],
+  "android_recovered": [
+    "Your private working copy was restored. Save a portable project to share it.",
+    "Локальная рабочая копия восстановлена. Для передачи сохраните файл проекта.",
+    "Copie de travail privée restaurée. Enregistrez un projet portable pour le partager.",
+    "Private Arbeitskopie wiederhergestellt. Zum Teilen ein portables Projekt speichern.",
+    "Se restauró la copia privada. Guarda un proyecto portátil para compartirlo.",
+    "Copia privata ripristinata. Salva un progetto portatile per condividerlo."
+  ],
+  "android_source_windows": [
+    "Windows WLAN observation",
+    "Наблюдение Windows WLAN",
+    "Observation WLAN Windows",
+    "Windows-WLAN-Beobachtung",
+    "Observación WLAN de Windows",
+    "Osservazione WLAN Windows"
+  ],
+  "android_source_android": [
+    "Android Wi-Fi observation",
+    "Наблюдение Wi-Fi Android",
+    "Observation Wi-Fi Android",
+    "Android-WLAN-Beobachtung",
+    "Observación Wi-Fi de Android",
+    "Osservazione Wi-Fi Android"
+  ],
+  "android_ssid_display": [
+    "This Android version supplied display text for the SSID; original raw SSID bytes are unavailable.",
+    "Эта версия Android дала текст SSID; исходные байты имени недоступны.",
+    "Cette version Android fournit le texte du SSID ; les octets bruts sont indisponibles.",
+    "Diese Android-Version lieferte SSID-Anzeigetext; originale Bytes sind nicht verfügbar.",
+    "Esta versión de Android dio texto SSID; no están disponibles los bytes originales.",
+    "Questa versione Android ha fornito testo SSID; i byte originali non sono disponibili."
+  ],
+  "android_install_permission": [
+    "Android must allow this app to request APK installation. Enable that permission only if you trust this build, then return and press install again.",
+    "Для установки APK Android должен разрешить установку из этого приложения. Разрешите её только при доверии к сборке, затем вернитесь и снова нажмите установку.",
+    "Android doit autoriser cette app à demander l’installation d’APK. Activez ce droit seulement si vous lui faites confiance, revenez puis relancez l’installation.",
+    "Android muss dieser App APK-Installationsanfragen erlauben. Nur bei Vertrauen aktivieren, dann zurückkehren und erneut installieren.",
+    "Android debe permitir que esta app solicite instalar APK. Actívalo solo si confías en la compilación, vuelve y pulsa instalar otra vez.",
+    "Android deve consentire a questa app di richiedere l’installazione APK. Attiva solo se ti fidi, torna e premi di nuovo installa."
+  ],
+  "android_allow_install": [
+    "Open Android installation permission",
+    "Открыть разрешение установки Android",
+    "Ouvrir l’autorisation d’installation Android",
+    "Android-Installationsfreigabe öffnen",
+    "Abrir permiso de instalación de Android",
+    "Apri il permesso di installazione Android"
+  ],
+  "android_update_ready": [
+    "APK size, checksum, package and signing identity verified. Installation needs Android confirmation; your private working copy is saved first.",
+    "Размер APK, сумма, пакет и подпись проверены. Установку подтвердит Android; рабочая копия сначала сохраняется.",
+    "Taille, somme, paquet et signature APK vérifiés. Android demande confirmation ; la copie de travail est d’abord sauvegardée.",
+    "APK-Größe, Prüfsumme, Paket und Signatur geprüft. Android fragt nach Bestätigung; die Arbeitskopie wird zuerst gesichert.",
+    "Tamaño, suma, paquete y firma APK verificados. Android pedirá confirmación; primero se guarda la copia de trabajo.",
+    "Dimensione, checksum, pacchetto e firma APK verificati. Android richiede conferma; prima viene salvata la copia di lavoro."
+  ],
+  "android_update_signer": [
+    "APK signing identity differs from this installation. No update was installed. A development build cannot switch signing keys through an update.",
+    "Подпись APK отличается от установленной. Обновление не установлено. Сменить ключ подписи обновлением отладочной сборки нельзя.",
+    "La signature APK diffère de l’installation. Aucune mise à jour installée. Une version de développement ne peut pas changer de clé par mise à jour.",
+    "APK-Signatur weicht ab. Kein Update installiert. Ein Entwicklungsbuild kann den Signaturschlüssel nicht per Update wechseln.",
+    "La firma APK es distinta. No se instaló la actualización. Una compilación de desarrollo no puede cambiar de clave al actualizar.",
+    "La firma APK è diversa. Nessun aggiornamento installato. Una build di sviluppo non può cambiare chiave con un aggiornamento."
+  ],
+  "android_debug_build": [
+    "development build",
+    "отладочная сборка",
+    "version de développement",
+    "Entwicklungsbuild",
+    "compilación de desarrollo",
+    "build di sviluppo"
+  ],
+  "android_update_installed": [
+    "Android reported a successful update.",
+    "Android сообщил об успешном обновлении.",
+    "Android a confirmé la mise à jour.",
+    "Android meldete ein erfolgreiches Update.",
+    "Android informó de una actualización correcta.",
+    "Android ha segnalato un aggiornamento riuscito."
+  ]
+}

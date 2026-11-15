@@ -1,0 +1,25 @@
+name: Windows build
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: windows
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: cargo fmt --all --check
+      - run: cargo clippy --locked --all-targets -j 2 -- -D warnings
+      - run: cargo test --locked --all-targets --features network-tests -j 2
+      - run: python tools/check_catalog.py
+      - run: ./tools/package.ps1
+        shell: pwsh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WifiMap-windows-preview
+          path: windows/dist/*

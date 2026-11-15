@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png -text
+*.ico -text
+# Preserve whitespace in upstream license text.
+**/THIRD_PARTY_NOTICES.txt whitespace=-blank-at-eol
+*.jar -text

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "egui",
+    "file": "egui.LICENSE",
+    "url": "https://github.com/emilk/egui/blob/44cdd653e2317d300fb8a6c9c36b03f23991e803/LICENSE-MIT",
+    "blob_sha": "673ea5f0505d6fa65c6a2b6a753c93b8e19d11b9",
+    "packages": {
+      "egui": "0.33.3",
+      "egui-winit": "0.33.3",
+      "epaint": "0.33.3",
+      "emath": "0.33.3",
+      "ecolor": "0.33.3"
+    }
+  },
+  {
+    "name": "accesskit",
+    "file": "accesskit.LICENSE",
+    "url": "https://github.com/AccessKit/accesskit/blob/0b6901a8c8e6fb1cb5a2dc7c19dc7bee1cc5ad09/LICENSE-MIT",
+    "blob_sha": "31aa79387f27e730e33d871925e152e35e428031",
+    "packages": {
+      "accesskit": "0.21.1"
+    }
+  },
+  {
+    "name": "accesskit-platform",
+    "file": "accesskit.LICENSE",
+    "url": "https://github.com/AccessKit/accesskit/blob/5801c4a49ff9b2c9ec3f77b3c31272d0da4c5cd3/LICENSE-MIT",
+    "blob_sha": "31aa79387f27e730e33d871925e152e35e428031",
+    "packages": {
+      "accesskit_consumer": "0.31.0",
+      "accesskit_windows": "0.29.2",
+      "accesskit_winit": "0.29.2"
+    }
+  },
+  {
+    "name": "profiling",
+    "file": "profiling.LICENSE",
+    "url": "https://github.com/aclysma/profiling/blob/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-MIT",
+    "blob_sha": "6a84e059ad8b43e03c2b06bc2af4dc1d8442808d",
+    "packages": {
+      "profiling": "1.0.18"
+    }
+  },
+  {
+    "name": "clipboard-win",
+    "file": "clipboard-win.LICENSE",
+    "url": "https://github.com/DoumanAsh/clipboard-win/blob/ed27008ae5d1f10cfbb266de039f0fb35fd05a56/LICENSE",
+    "blob_sha": "36b7cd93cdfbac762f5be4c6ce276df2ea6305c2",
+    "packages": {
+      "clipboard-win": "5.4.3"
+    }
+  },
+  {
+    "name": "constify",
+    "file": "constify.LICENSE",
+    "url": "https://github.com/DGriffin91/egui_software_backend/blob/d17cbcdb2bf4e853543c4c7db61c9d4e2f2233a4/LICENSE-MIT",
+    "blob_sha": "9cf106272ac3b56b0c4c80218e8fc10a664ca5f4",
+    "packages": {
+      "constify": "0.0.1"
+    }
+  }
+]
