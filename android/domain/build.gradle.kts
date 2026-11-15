@@ -3,6 +3,10 @@ kotlin {
     jvmToolchain(21)
     compilerOptions.jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
 }
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
 dependencies {
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("org.jetbrains:annotations:23.0.0")
