@@ -1,4 +1,20 @@
+import java.io.File
+
 plugins { id("com.android.application"); kotlin("android") }
+
+val debugKeystore = rootProject.layout.projectDirectory.file(".gradle-user/debug.keystore")
+val prepareDebugKeystore by tasks.registering(Exec::class) {
+    val destination = debugKeystore.asFile
+    val keytool = File(System.getProperty("java.home"), "bin/" + if (System.getProperty("os.name").startsWith("Windows")) "keytool.exe" else "keytool")
+    outputs.file(destination)
+    onlyIf { !destination.exists() }
+    doFirst { check(destination.parentFile.isDirectory || destination.parentFile.mkdirs()) }
+    commandLine(keytool.absolutePath, "-genkeypair", "-keystore", destination.absolutePath,
+        "-storepass", "android", "-keypass", "android", "-alias", "androiddebugkey",
+        "-dname", "CN=Android Debug,O=Android,C=US", "-keyalg", "RSA", "-keysize", "2048", "-validity", "10000", "-noprompt")
+}
+tasks.matching { it.name == "validateSigningDebug" }.configureEach { dependsOn(prepareDebugKeystore) }
+
 android {
     namespace = "com.siarheisinelnikau.wifimap"
     compileSdk = 35
@@ -10,7 +26,7 @@ android {
         versionName = "0.2.0"
     }
     signingConfigs.getByName("debug") {
-        storeFile = rootProject.file(".gradle-user/debug.keystore")
+        storeFile = debugKeystore.asFile
     }
     buildTypes {
         debug { applicationIdSuffix = ".debug" }
