@@ -60,13 +60,13 @@ pub fn apply_style(ctx: &egui::Context, theme: Theme, reduced_motion: bool) {
     style.visuals.weak_text_color = Some(p.muted);
     style.visuals.text_cursor.blink = false;
     style.visuals.selection.bg_fill = p.selected;
-    style.visuals.selection.stroke = Stroke::new(1.5, p.accent);
+    style.visuals.selection.stroke = Stroke::new(1.5_f32, p.accent);
     style.visuals.widgets.inactive.bg_fill = p.background;
-    style.visuals.widgets.inactive.bg_stroke = Stroke::new(1.0, p.border);
+    style.visuals.widgets.inactive.bg_stroke = Stroke::new(1.0_f32, p.border);
     style.visuals.widgets.hovered.bg_fill = p.selected;
-    style.visuals.widgets.hovered.bg_stroke = Stroke::new(1.5, p.accent);
+    style.visuals.widgets.hovered.bg_stroke = Stroke::new(1.5_f32, p.accent);
     style.visuals.widgets.active.bg_fill = p.selected;
-    style.visuals.widgets.active.bg_stroke = Stroke::new(2.0, p.accent);
+    style.visuals.widgets.active.bg_stroke = Stroke::new(2.0_f32, p.accent);
     style.visuals.window_corner_radius = egui::CornerRadius::same(12);
     style.visuals.menu_corner_radius = egui::CornerRadius::same(8);
     style.spacing.item_spacing = vec2(8.0, 9.0);
@@ -1131,7 +1131,7 @@ impl WifiApp {
         painter.rect_stroke(
             plan_rect,
             6,
-            Stroke::new(1.0, p.border),
+            Stroke::new(1.0_f32, p.border),
             egui::StrokeKind::Inside,
         );
         let uv = egui::Rect::from_min_max(pos2(0.0, 0.0), pos2(1.0, 1.0));
@@ -1210,10 +1210,10 @@ impl WifiApp {
             painter.circle_stroke(
                 at,
                 if selected { 8.5 } else { 6.5 },
-                Stroke::new(2.5, Color32::WHITE),
+                Stroke::new(2.5_f32, Color32::WHITE),
             );
             if selected {
-                painter.circle_stroke(at, 12.0, Stroke::new(1.5, p.accent));
+                painter.circle_stroke(at, 12.0, Stroke::new(1.5_f32, p.accent));
             }
             painter.text(
                 at + vec2(11.0, -11.0),
@@ -1234,15 +1234,15 @@ impl WifiApp {
                 1.0
             };
             let radius = 13.0 + 5.0 * (1.0 - progress).powi(3);
-            painter.circle_stroke(at, radius, Stroke::new(1.5, p.accent));
+            painter.circle_stroke(at, radius, Stroke::new(1.5_f32, p.accent));
             if self.selected.is_none() {
                 painter.line_segment(
                     [at - vec2(6.0, 0.0), at + vec2(6.0, 0.0)],
-                    Stroke::new(1.5, p.accent),
+                    Stroke::new(1.5_f32, p.accent),
                 );
                 painter.line_segment(
                     [at - vec2(0.0, 6.0), at + vec2(0.0, 6.0)],
-                    Stroke::new(1.5, p.accent),
+                    Stroke::new(1.5_f32, p.accent),
                 );
             }
             if animated {
@@ -1252,11 +1252,11 @@ impl WifiApp {
         if let Some(a) = self.anchor {
             painter.circle_filled(screen(a), 4.0, p.accent);
             if let Some(b) = project_point {
-                painter.line_segment([screen(a), screen(b)], Stroke::new(2.0, p.accent));
+                painter.line_segment([screen(a), screen(b)], Stroke::new(2.0_f32, p.accent));
             }
         }
         if let Some((a, b)) = self.calibration {
-            painter.line_segment([screen(a), screen(b)], Stroke::new(2.0, p.accent));
+            painter.line_segment([screen(a), screen(b)], Stroke::new(2.0_f32, p.accent));
         }
         if let Some(cal) = &self.project.plan.calibration
             && let Some(mpp) = cal.meters_per_pixel()
@@ -1266,7 +1266,7 @@ impl WifiApp {
                 let start = pos2(rect.left() + 16.0, rect.bottom() - 22.0);
                 painter.line_segment(
                     [start, start + vec2(length, 0.0)],
-                    Stroke::new(3.0, p.accent),
+                    Stroke::new(3.0_f32, p.accent),
                 );
                 painter.text(
                     start + vec2(0.0, -6.0),
