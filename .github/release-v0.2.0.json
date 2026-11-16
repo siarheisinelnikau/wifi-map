@@ -2,7 +2,6 @@
   "repository": "siarheisinelnikau/wifi-map",
   "tag_name": "v0.2.0",
   "name": "WifiMap 0.2.0 Preview",
-  "target_commitish": "0c8c9d8f92ad8d14624bb617cb4aef9dbc0574d5",
   "draft": false,
   "prerelease": true,
   "make_latest": "false",
@@ -196,5 +195,7 @@
   "verified_ci_runs": {
     "windows": 43766893390,
     "android": 43766893421
-  }
+  },
+  "source_commit": "0c8c9d8f92ad8d14624bb617cb4aef9dbc0574d5",
+  "publication_target": "workflow_commit"
 }

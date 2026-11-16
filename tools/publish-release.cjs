@@ -20,7 +20,7 @@ const notFound = async request => { try { return (await request()).data; } catch
 
 function validateConfig(config) {
   check(config.repository === REPOSITORY && config.tag_name === TAG, 'Unexpected release target');
-  check(/^[a-f0-9]{40}$/.test(config.target_commitish), 'A pinned source commit is required');
+  check(/^[a-f0-9]{40}$/.test(config.source_commit) && config.publication_target === 'workflow_commit', 'A pinned source and workflow publication target are required');
   check(config.name === 'WifiMap 0.2.0 Preview' && config.prerelease === true && config.draft === false && config.make_latest === 'false', 'This publisher only publishes the approved preview');
   check(typeof config.body === 'string' && config.body.length > 1000 && config.body.includes('Preview limits'), 'Release notes are required');
   check(config.assets.length === ASSETS.size && new Set(config.assets.map(a => a.name)).size === ASSETS.size, 'Unexpected asset list');
@@ -46,10 +46,10 @@ async function checkSource(github, repo, config, currentSha) {
     const runId = config.verified_ci_runs[platform];
     check(Number.isSafeInteger(runId) && runId > 0, 'A verified build run is required');
     const run = (await github.rest.actions.getWorkflowRun({ ...repo, run_id: runId })).data;
-    check(run.head_sha === config.target_commitish && run.status === 'completed' && run.conclusion === 'success' && run.path === expectedPath, `The ${platform} build has not passed for the release commit`);
+    check(run.head_sha === config.source_commit && run.status === 'completed' && run.conclusion === 'success' && run.path === expectedPath, `The ${platform} build has not passed for the release commit`);
   }
   const trees = [];
-  for (const sha of [config.target_commitish, currentSha]) {
+  for (const sha of [config.source_commit, currentSha]) {
     const commit = (await github.rest.git.getCommit({ ...repo, commit_sha: sha })).data;
     trees.push((await github.rest.git.getTree({ ...repo, tree_sha: commit.tree.sha })).data.tree);
   }
@@ -59,7 +59,7 @@ async function checkSource(github, repo, config, currentSha) {
     check(before && after && before.sha === after.sha, `Unverified changes in ${name}`);
   }
   const existingTag = await resolveTag(github, repo, config.tag_name);
-  check(existingTag === null || existingTag === config.target_commitish, 'An existing tag points to another commit');
+  check(existingTag === null || existingTag === currentSha, 'An existing tag points to another publication commit');
 }
 
 async function restoreAssets(github, repo, config, output) {
@@ -111,12 +111,14 @@ module.exports = async function publish({ github, context, core, root = process.
       core.notice(`The matching preview is already published: ${release.html_url}`);
       return release.html_url;
     }
-    check(release.target_commitish === config.target_commitish, 'An existing draft targets another commit');
+    check(release.target_commitish === context.sha, 'An existing draft targets another publication commit');
   }
   const output = path.join(root, 'dist/publish-v0.2.0');
   await restoreAssets(github, repo, config, output);
   await verify(root, output);
-  if (!release) release = (await github.rest.repos.createRelease({ ...repo, tag_name: config.tag_name, target_commitish: config.target_commitish, name: config.name, body: config.body, draft: true, prerelease: true, make_latest: 'false', generate_release_notes: false })).data;
+  // Tag the current workflow commit after proving that its application trees
+  // match the tested source; older workflow trees require additional GitHub permissions.
+  if (!release) release = (await github.rest.repos.createRelease({ ...repo, tag_name: config.tag_name, target_commitish: context.sha, name: config.name, body: config.body, draft: true, prerelease: true, make_latest: 'false', generate_release_notes: false })).data;
   let assets = await github.paginate(github.rest.repos.listReleaseAssets, { ...repo, release_id: release.id, per_page: 100 });
   for (const expected of config.assets) {
     const existing = assets.find(item => item.name === expected.name);
@@ -129,7 +131,7 @@ module.exports = async function publish({ github, context, core, root = process.
   assets = await github.paginate(github.rest.repos.listReleaseAssets, { ...repo, release_id: release.id, per_page: 100 });
   check(assets.length === config.assets.length && config.assets.every(expected => assets.some(item => matchesAsset(item, expected))), 'The draft is incomplete; it remains unpublished');
   release = (await github.rest.repos.updateRelease({ ...repo, release_id: release.id, draft: false, prerelease: true, make_latest: 'false' })).data;
-  check(release.draft === false && release.prerelease === true && await resolveTag(github, repo, config.tag_name) === config.target_commitish, 'Published release verification failed');
+  check(release.draft === false && release.prerelease === true && await resolveTag(github, repo, config.tag_name) === context.sha, 'Published release verification failed');
   core.notice(`Published ${release.html_url}`);
   return release.html_url;
 };
