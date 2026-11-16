@@ -1,5 +1,10 @@
 name: Android build
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths: ['android/**', 'shared/**', 'windows/locales/catalog.json', '.github/workflows/android.yml']
+  pull_request:
+    paths: ['android/**', 'shared/**', 'windows/locales/catalog.json', '.github/workflows/android.yml']
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:

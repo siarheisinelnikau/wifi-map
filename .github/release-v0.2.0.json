@@ -1,0 +1,200 @@
+{
+  "repository": "siarheisinelnikau/wifi-map",
+  "tag_name": "v0.2.0",
+  "name": "WifiMap 0.2.0 Preview",
+  "target_commitish": "0c8c9d8f92ad8d14624bb617cb4aef9dbc0574d5",
+  "draft": false,
+  "prerelease": true,
+  "make_latest": "false",
+  "body": "First public preview of WifiMap for Windows and Android.\n\n## Included\n- Separate native Windows and Android applications for mapping Wi-Fi observations onto a floor plan.\n- PNG/JPEG floor-plan import, scale calibration, walls, router markers and editable measurement points.\n- Survey sessions, supported-area signal estimates, before/after comparison and self-contained SVG reports.\n- A shared .wifimap project format that preserves Windows and Android observations, timestamps and SSID provenance.\n- English, Russian, French, German, Spanish and Italian, plus light/dark themes and reduced motion.\n- Manual update checking, optional startup checks and user-initiated update installation paths.\n\n## Downloads\n- **WifiMap-v0.2.0.exe**: portable Windows x64 application. No installer is required.\n- **WifiMap-v0.2.0-debug.apk**: development-signed Android application, requiring Android 8.0 (API 26) or later. This uses the separate com.siarheisinelnikau.wifimap.debug package and is not a production-signed Android release.\n- SHA-256 sidecars and dependency notices accompany the applications. Both applications also include license notices.\n\n## Verified\n- Windows formatting, strict Clippy checks, 30 automated tests and release packaging passed on GitHub Actions.\n- Android Gradle compilation, 11 domain tests, lint, APK packaging and static signature/resource checks passed on GitHub Actions.\n- Shared project round trips preserve the fixture, and the two heatmap implementations agree within 0.001 dBm on the interoperability fixture.\n- The downloadable Windows PE and Android APK were inspected without starting the applications.\n\n## Preview limits\n- The interface, idle/hidden rendering load, real Wi-Fi measurements and update installation have not been exercised on hardware. This preview is for evaluation.\n- Android scans run in the foreground and depend on system permissions, location/Wi-Fi availability and platform scan throttling.\n- Android does not supply a driver-quality percentage, noise or SNR in these measurements; unavailable values remain absent.\n- The Android APK is a debug build. Keep its signing identity for subsequent development updates; an APK signed with another key cannot update it in place. Production Android signing remains separate.\n- This preview is excluded from stable-channel automatic update offers.\n\nSource: https://github.com/siarheisinelnikau/wifi-map/tree/0c8c9d8f92ad8d14624bb617cb4aef9dbc0574d5\n",
+  "assets": [
+    {
+      "name": "WifiMap-v0.2.0.exe",
+      "size": 8654336,
+      "sha256": "cee1dfcc07e0bd4654dd8ca44fc88d699780a9ec1c5232d67ae590e368fb8aaa",
+      "chunks": [
+        {
+          "sha": "85a642d46a1e552cff5a936d68da37800bc77d08",
+          "size": 524288,
+          "offset": 0
+        },
+        {
+          "sha": "e62aba0e399d671239175b651e21ebee68121701",
+          "size": 524288,
+          "offset": 524288
+        },
+        {
+          "sha": "61620351b65bc2131e84122c73f90e7900a46bed",
+          "size": 524288,
+          "offset": 1048576
+        },
+        {
+          "sha": "e5caf34d3f5830311fb6810c48a175fc5be887ce",
+          "size": 524288,
+          "offset": 1572864
+        },
+        {
+          "sha": "cfb93a0168a97348a873bcf3397e735339dbf79f",
+          "size": 524288,
+          "offset": 2097152
+        },
+        {
+          "sha": "a50d307c93c76b3062d4ecc07d69a246c4ebaf22",
+          "size": 524288,
+          "offset": 2621440
+        },
+        {
+          "sha": "7e55989c862c2df9e33d608a12a28235a8f04cc5",
+          "size": 524288,
+          "offset": 3145728
+        },
+        {
+          "sha": "b198cf4fbbce7b1c766be0839ec00c94696711d7",
+          "size": 524288,
+          "offset": 3670016
+        },
+        {
+          "sha": "01378441250d4d0bd4116487e58e83834629e8ca",
+          "size": 524288,
+          "offset": 4194304
+        },
+        {
+          "sha": "3997a32793eafd2e993ccfc38a086a50e801e7c5",
+          "size": 524288,
+          "offset": 4718592
+        },
+        {
+          "sha": "9ae75f8cbe4d64f849b223b8026ad5b8c6591137",
+          "size": 524288,
+          "offset": 5242880
+        },
+        {
+          "sha": "14528f6ee06b2ba3c68c6f450a44ea9b8d2284c9",
+          "size": 524288,
+          "offset": 5767168
+        },
+        {
+          "sha": "7b88aa6b18d389ded3f8385d7775359cc67ea7c8",
+          "size": 524288,
+          "offset": 6291456
+        },
+        {
+          "sha": "5537280bdcdea69af0805b073a07faed5e2f32cd",
+          "size": 524288,
+          "offset": 6815744
+        },
+        {
+          "sha": "b16d8a12ba4d051036d4f16c40afbad665c6d2e3",
+          "size": 524288,
+          "offset": 7340032
+        },
+        {
+          "sha": "0e27d55c02eefcc73cf6a66e74107745e6f2b7d5",
+          "size": 524288,
+          "offset": 7864320
+        },
+        {
+          "sha": "5b0b371e2125ff9571e49bf1dc1552fafe1b0591",
+          "size": 265728,
+          "offset": 8388608
+        }
+      ]
+    },
+    {
+      "name": "WifiMap-v0.2.0.exe.sha256",
+      "size": 85,
+      "sha256": "caae4a04ebae5396a10282eaccb42472d1c8ab0ed5b60a052edfb82b3b516312",
+      "chunks": [
+        {
+          "sha": "9315171a0d40097f85c6d3b36c92881e5b9adaec",
+          "size": 85,
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "name": "WifiMap-v0.2.0-debug.apk",
+      "size": 2252181,
+      "sha256": "6b225c4176d2919b4512d4f76ec02da6b75566eceacff865deffac85dd1ba3b0",
+      "chunks": [
+        {
+          "sha": "760d053512058e3fbde63a26967048f73da76c95",
+          "size": 524288,
+          "offset": 0
+        },
+        {
+          "sha": "dc7739abbd7b951bd416cff62afa6ff5076a11f8",
+          "size": 524288,
+          "offset": 524288
+        },
+        {
+          "sha": "89917187227343c263ecf73567c64bba27ddcd11",
+          "size": 524288,
+          "offset": 1048576
+        },
+        {
+          "sha": "089e9a5c0681326b0dccb9a45d912b6d5fcf84a8",
+          "size": 524288,
+          "offset": 1572864
+        },
+        {
+          "sha": "049086af93a0566cdb0e4d3dc4c6513c94ad9b6b",
+          "size": 155029,
+          "offset": 2097152
+        }
+      ]
+    },
+    {
+      "name": "WifiMap-v0.2.0-debug.apk.sha256",
+      "size": 91,
+      "sha256": "383ede944d1878d8e3cc8d16491dadc0ff510c6b88020b8579db4076d2975e8d",
+      "chunks": [
+        {
+          "sha": "85a4090ca7abfdccdaf15d13259fd055263736c0",
+          "size": 91,
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "name": "LICENSE",
+      "size": 1095,
+      "sha256": "e23c56c914e83458fb5110861547d654ac7a226047209d3c6a8e74336e246725",
+      "chunks": [
+        {
+          "sha": "86732f569e9534f526793375dc998e44e37e1520",
+          "size": 1095,
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "name": "WifiMap-Windows-THIRD_PARTY_NOTICES.txt",
+      "size": 381661,
+      "sha256": "ece591788b1b9f74e980b8734c701777160ba05795df2d8f318168c7c813c843",
+      "chunks": [
+        {
+          "sha": "742b34390488a6c33595d6d118bb00a5b26d5330",
+          "size": 381661,
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "name": "WifiMap-Android-THIRD_PARTY_NOTICES.txt",
+      "size": 37090,
+      "sha256": "9c4aede61369e88e0cf88505fe6e1f3b3fb7fc33b855bc7c94b07812ce780034",
+      "chunks": [
+        {
+          "sha": "a3091cbf97f99625d2963a19252107628828758f",
+          "size": 37090,
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "verified_ci_runs": {
+    "windows": 43766893390,
+    "android": 43766893421
+  }
+}
