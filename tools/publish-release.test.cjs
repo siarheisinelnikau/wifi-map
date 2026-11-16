@@ -12,7 +12,7 @@ async function fixture(options = {}) {
   const root = await fs.mkdtemp(path.join(repository, 'dist/publisher-tests-'));
   const config = {
     repository: 'siarheisinelnikau/wifi-map', tag_name: 'v0.2.0', name: 'WifiMap 0.2.0 Preview',
-    target_commitish: 'a'.repeat(40), prerelease: true, draft: false, make_latest: 'false',
+    source_commit: 'a'.repeat(40), publication_target: 'workflow_commit', prerelease: true, draft: false, make_latest: 'false',
     body: 'Preview limits\n' + 'Synthetic publisher fixture. '.repeat(50),
     verified_ci_runs: { windows: 1, android: 2 }, assets: [],
   };
@@ -32,18 +32,18 @@ async function fixture(options = {}) {
   const listReleaseAssets = () => {};
   const github = {
     rest: {
-      actions: { getWorkflowRun: async ({ run_id }) => ({ data: { head_sha: config.target_commitish, status: 'completed', conclusion: 'success', path: `.github/workflows/${run_id === 1 ? 'windows' : 'android'}.yml` } }) },
+      actions: { getWorkflowRun: async ({ run_id }) => ({ data: { head_sha: config.source_commit, status: 'completed', conclusion: 'success', path: `.github/workflows/${run_id === 1 ? 'windows' : 'android'}.yml` } }) },
       git: {
-        getCommit: async () => ({ data: { tree: { sha: 'c'.repeat(40) } } }),
-        getTree: async () => ({ data: { tree: ['windows', 'android', 'shared', 'LICENSE'].map(name => ({ path: name, sha: 'd'.repeat(40) })) } }),
+        getCommit: async ({ commit_sha }) => ({ data: { tree: { sha: commit_sha } } }),
+        getTree: async ({ tree_sha }) => ({ data: { tree: ['windows', 'android', 'shared', 'LICENSE'].map(name => ({ path: name, sha: (options.changedAppSource && tree_sha === 'b'.repeat(40) && name === 'windows' ? 'e' : 'd').repeat(40) })) } }),
         getRef: async () => { if (!state.tag) throw Object.assign(new Error('Not found'), { status: 404 }); return { data: { object: { type: 'commit', sha: state.tag } } }; },
         getBlob: async ({ file_sha }) => ({ data: { encoding: 'base64', content: blobs.get(file_sha).toString('base64'), size: blobs.get(file_sha).length } }),
       },
       repos: {
         listReleases, listReleaseAssets,
-        createRelease: async parameters => { assert.equal(parameters.draft, true); state.creates++; state.release = { ...parameters, id: 9, html_url: 'https://github.com/siarheisinelnikau/wifi-map/releases/tag/v0.2.0' }; return { data: state.release }; },
+        createRelease: async parameters => { assert.equal(parameters.draft, true); assert.equal(parameters.target_commitish, 'b'.repeat(40)); state.creates++; state.release = { ...parameters, id: 9, html_url: 'https://github.com/siarheisinelnikau/wifi-map/releases/tag/v0.2.0' }; return { data: state.release }; },
         uploadReleaseAsset: async ({ name, data }) => { state.uploads++; const asset = { name, size: data.length, state: 'uploaded', digest: `sha256:${publish.sha256(data)}` }; if (options.badUpload && state.uploads === 2) asset.digest = `sha256:${'0'.repeat(64)}`; state.assets.push(asset); return { data: asset }; },
-        updateRelease: async parameters => { assert.equal(state.assets.length, config.assets.length); state.publishes++; state.tag = config.target_commitish; state.release = { ...state.release, ...parameters }; return { data: state.release }; },
+        updateRelease: async parameters => { assert.equal(state.assets.length, config.assets.length); state.publishes++; state.tag = state.release.target_commitish; state.release = { ...state.release, ...parameters }; return { data: state.release }; },
       },
     },
     paginate: async method => method === listReleases ? (state.release ? [state.release] : []) : state.assets,
@@ -88,5 +88,13 @@ test('refuses to edit a published release with different metadata', async () => 
     f.state.release = { tag_name: 'v0.2.0', name: 'Existing release', draft: false };
     await assert.rejects(publish(f.args), /will not be changed/);
     assert.deepEqual([f.state.creates, f.state.uploads, f.state.publishes], [0, 0, 0]);
+  } finally { await f.cleanup(); }
+});
+
+test('rejects a publication commit whose application source differs from the tested source', async () => {
+  const f = await fixture({ changedAppSource: true });
+  try {
+    await assert.rejects(publish(f.args), /Unverified changes in windows/);
+    assert.equal(f.state.creates, 0);
   } finally { await f.cleanup(); }
 });
