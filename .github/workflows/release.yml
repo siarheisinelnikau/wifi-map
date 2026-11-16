@@ -1,0 +1,38 @@
+name: Publish verified preview
+on:
+  push:
+    branches: [main]
+    paths: ['.github/release-v0.2.0.json']
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: release-wifimap-v0.2.0
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'siarheisinelnikau/wifi-map'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: 'platforms;android-35 build-tools;35.0.0'
+          log-accepted-android-sdk-licenses: false
+      - name: Test publication guards
+        run: node --test tools/publish-release.test.cjs
+      - name: Verify and publish the approved files
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const publish = require('./tools/publish-release.cjs');
+            await publish({github, context, core});

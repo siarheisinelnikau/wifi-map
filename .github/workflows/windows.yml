@@ -1,5 +1,10 @@
 name: Windows build
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths: ['windows/**', 'shared/**', '.github/workflows/windows.yml']
+  pull_request:
+    paths: ['windows/**', 'shared/**', '.github/workflows/windows.yml']
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
